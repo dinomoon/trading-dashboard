@@ -1,0 +1,1048 @@
+{
+ "generated_at": "2026-11-20T08:43:54+09:00",
+ "dreamroad": {
+  "names": {
+   "028050": "삼성E&A",
+   "18064K": "한진칼우",
+   "036930": "주성엔지니어링",
+   "055550": "신한지주",
+   "096770": "SK이노베이션",
+   "278470": "에이피알"
+  },
+  "routine": {
+   "last": {
+    "date": "2026-11-19",
+    "status": "ok",
+    "started": "2026-11-19T22:05:43+09:00",
+    "finished": "2026-11-19T22:49:52+09:00",
+    "steps": [
+     {
+      "name": "데이터 갱신 (update)",
+      "ok": true,
+      "detail": "2747종목, 새 봉 5,490개, 마지막 날 교체 595종목, 재수집 0종목",
+      "sec": 2341
+     },
+     {
+      "name": "테마 스냅샷 (themes)",
+      "ok": true,
+      "detail": "테마 142개 · 소속 899건",
+      "sec": 264
+     },
+     {
+      "name": "DR 후보 공시 (refresh-dart)",
+      "ok": true,
+      "detail": "후보 5종목: 새로 받음 5 (새 공시 179건) / 이미 최신 0",
+      "sec": 11
+     },
+     {
+      "name": "일일 스캔 (daily)",
+      "ok": true,
+      "detail": "reports/daily/scan_2026-11-19.md",
+      "sec": 13
+     },
+     {
+      "name": "watchlist 초안 (draft)",
+      "ok": true,
+      "detail": "data/watchlist_drafts/draft_2026-11-19.yaml (4종목) · 옵시디언 사본 저장",
+      "sec": 5
+     },
+     {
+      "name": "전진 검증 (forward)",
+      "ok": true,
+      "detail": "reports/forward/forward_2026-11-19.md",
+      "sec": 14
+     },
+     {
+      "name": "체결 실측 (분봉)",
+      "ok": true,
+      "detail": "오늘 지정가 체결 없음",
+      "sec": 0
+     },
+     {
+      "name": "모의 장부 (paper)",
+      "ok": true,
+      "detail": "다음 주문: 028050 sell 66,568 x 26 (+6% (본전 일부 매도는 규칙대로))",
+      "sec": 0
+     },
+     {
+      "name": "다음날 주문표 (sheet)",
+      "ok": true,
+      "detail": "data/sheets/sheet_2026-11-20.md",
+      "sec": 0
+     }
+    ]
+   },
+   "history": [
+    {
+     "date": "2026-11-16",
+     "status": "ok",
+     "note": "data/watchlist.yaml 없음 → 모의 장부·주문표 건너뜀",
+     "started": "2026-11-17T10:39:56+09:00",
+     "finished": "2026-11-17T10:40:10+09:00"
+    },
+    {
+     "date": "2026-11-15",
+     "status": "skip",
+     "note": "주말",
+     "started": "2026-11-17T10:40:11+09:00",
+     "finished": "2026-11-17T10:40:11+09:00"
+    },
+    {
+     "date": "2026-11-17",
+     "status": "skip",
+     "note": "오늘 일봉 없음 (DB 마지막 2026-11-16) — 휴장일이거나 아직 미반영",
+     "started": "2026-11-17T10:40:11+09:00",
+     "finished": "2026-11-17T10:40:11+09:00"
+    },
+    {
+     "date": "2026-11-17",
+     "status": "skip",
+     "note": "장 마감 전 (10:41 KST) — 당일 봉이 확정되는 17시 이후에 실행",
+     "started": "2026-11-17T10:41:12+09:00",
+     "finished": "2026-11-17T10:41:12+09:00"
+    },
+    {
+     "date": "2026-11-17",
+     "status": "skip",
+     "note": "장 마감 전 (10:41 KST) — 당일 봉이 확정되는 17시 이후에 실행",
+     "started": "2026-11-17T10:41:21+09:00",
+     "finished": "2026-11-17T10:41:21+09:00"
+    },
+    {
+     "date": "2026-11-16",
+     "status": "ok",
+     "note": "data/watchlist.yaml 없음 → 모의 장부·주문표 건너뜀",
+     "started": "2026-11-17T10:53:01+09:00",
+     "finished": "2026-11-17T10:53:10+09:00"
+    },
+    {
+     "date": "2026-11-16",
+     "status": "ok",
+     "note": "data/watchlist.yaml 없음 → 모의 장부·주문표 건너뜀",
+     "started": "2026-11-17T12:02:00+09:00",
+     "finished": "2026-11-17T12:02:12+09:00"
+    },
+    {
+     "date": "2026-11-16",
+     "status": "ok",
+     "note": "data/watchlist.yaml 없음 → 모의 장부·주문표 건너뜀",
+     "started": "2026-11-17T13:14:21+09:00",
+     "finished": "2026-11-17T13:18:50+09:00"
+    },
+    {
+     "date": "2026-11-17",
+     "status": "ok",
+     "note": "data/watchlist.yaml 없음 → 모의 장부·주문표 건너뜀",
+     "started": "2026-11-17T18:40:15+09:00",
+     "finished": "2026-11-17T19:35:31+09:00"
+    },
+    {
+     "date": "2026-11-18",
+     "status": "ok",
+     "note": null,
+     "started": "2026-11-18T23:41:07+09:00",
+     "finished": "2026-11-19T01:15:07+09:00"
+    },
+    {
+     "date": "2026-11-19",
+     "status": "ok",
+     "note": null,
+     "started": "2026-11-19T22:05:43+09:00",
+     "finished": "2026-11-19T22:49:52+09:00"
+    }
+   ],
+   "running": false
+  },
+  "paper": {
+   "last_date": "2026-11-19",
+   "cash": 98366955.08,
+   "start_equity": 100000000.0,
+   "equity_curve": [
+    {
+     "date": "2026-11-18",
+     "equity": 100020555.08
+    },
+    {
+     "date": "2026-11-19",
+     "equity": 100015355.08
+    }
+   ],
+   "positions": [
+    {
+     "code": "028050",
+     "name": "삼성E&A",
+     "technique": "중하단",
+     "qty": 26,
+     "avg": 62800.0,
+     "entry_date": "2026-11-18",
+     "days_held": 1,
+     "n_buys": 1,
+     "steps": 3,
+     "plan_prices": [
+      62800,
+      56520,
+      50868
+     ],
+     "plan_qty": [
+      26,
+      29,
+      32
+     ],
+     "sold_any": false
+    }
+   ],
+   "fills": [
+    {
+     "code": "028050",
+     "technique": "중하단",
+     "date": "2026-11-18",
+     "side": "buy",
+     "price": 62800,
+     "qty": 26,
+     "reason": "1차",
+     "fee": 244.92,
+     "name": "삼성E&A"
+    }
+   ]
+  },
+  "watchlist": {
+   "as_of": "2026-11-17",
+   "items": [
+    {
+     "code": "028050",
+     "name": "삼성E&A",
+     "technique": "중하단",
+     "grade": "",
+     "theme": "",
+     "zone": {
+      "start": 62800,
+      "end": 51800,
+      "overlap": [
+       "20일선"
+      ],
+      "signature": false
+     },
+     "wave_high": {
+      "date": "2026-11-17",
+      "price": 70300.0
+     },
+     "max_steps": 3,
+     "gap_pct": 10.0,
+     "expire": "2027-02-09"
+    },
+    {
+     "code": "036930",
+     "name": "주성엔지니어링",
+     "technique": "중하단",
+     "grade": "",
+     "theme": "",
+     "zone": {
+      "start": 119700,
+      "end": 88200,
+      "overlap": [],
+      "signature": false
+     },
+     "wave_high": {
+      "date": "2026-10-07",
+      "price": 284000.0
+     },
+     "max_steps": 3,
+     "gap_pct": 10.0,
+     "expire": "2026-12-31"
+    }
+   ]
+  },
+  "draft": {
+   "date": "2026-11-19",
+   "items": [
+    {
+     "code": "028050",
+     "name": "삼성E&A",
+     "adopt": false,
+     "technique": "중하단",
+     "zone": {
+      "start": 62800,
+      "end": 51800,
+      "overlap": [
+       "3차선"
+      ],
+      "signature": false
+     },
+     "wave_high": {
+      "date": "2026-11-17",
+      "price": 70300.0
+     },
+     "gap_pct": 10.0,
+     "max_steps": 3,
+     "expire": "2027-02-09",
+     "notes": [
+      "삼성E&A — 주도주 신고가 2026-11-17 · 종가 63,400 · 1차 존 상단 종가 대비 -0.9%",
+      "매수존 1차 56,105~62,832 (3차선 / 4차선) · 중첩 3차선",
+      "간격 10% (지수하락추세) · 하단(6~7차선 이하) 매수 땐 간격 확대 여부를 사람이 본다 [3강 4쪽]",
+      "· 기준선120 제외: 120일 저점대비 +84%",
+      "· 랠리 안 전저점 없음 → 차선 매수존",
+      "키움 테마: 건설_해외건설"
+     ]
+    },
+    {
+     "code": "036930",
+     "name": "주성엔지니어링",
+     "adopt": false,
+     "technique": "중하단",
+     "zone": {
+      "start": 119700,
+      "end": 88200,
+      "overlap": [],
+      "signature": false
+     },
+     "wave_high": {
+      "date": "2026-10-07",
+      "price": 284000.0
+     },
+     "gap_pct": 10.0,
+     "max_steps": 3,
+     "expire": "2026-12-31",
+     "notes": [
+      "주성엔지니어링 — 주도주 신고가 2026-10-07 · 종가 159,300 · 1차 존 상단 종가 대비 -24.8%",
+      "매수존 1차 88,270~119,795 (전저점×0.95 / 전저점−30%) · 중첩 -",
+      "간격 10% (지수하락추세) · 하단(6~7차선 이하) 매수 땐 간격 확대 여부를 사람이 본다 [3강 4쪽]",
+      "· 지지선 0개 → 모자란 존 하단은 전저점 −30%",
+      "키움 테마: 반도체_전공정장비, LCD_장비, 태양광_부품/소재/장비, AMOLED_장비"
+     ]
+    },
+    {
+     "code": "055550",
+     "name": "신한지주",
+     "adopt": false,
+     "technique": "중하단",
+     "zone": {
+      "start": 79500,
+      "end": 58500,
+      "overlap": [
+       "엔벨하단"
+      ],
+      "signature": false
+     },
+     "wave_high": {
+      "date": "2026-09-08",
+      "price": 116500.0
+     },
+     "gap_pct": 10.0,
+     "max_steps": 3,
+     "expire": "2026-12-07",
+     "notes": [
+      "신한지주 — 주도주 신고가 2026-09-08 · 종가 85,900 · 1차 존 상단 종가 대비 -7.4%",
+      "매수존 1차 58,590~79,515 (전저점×0.95 / 전저점−30%) · 중첩 엔벨하단",
+      "간격 10% (지수하락추세) · 하단(6~7차선 이하) 매수 땐 간격 확대 여부를 사람이 본다 [3강 4쪽]",
+      "⚠ 상승 파동(랠리) 미검출 → 기준 H는 마지막 주도주 신고가 이후 최고가. 진입 후 못 바꾸니 사람이 확인",
+      "· 차선 없음 (랠리·가격급등 캔들 미검출)",
+      "· 기준선120 제외: 120일 저점대비 +42%",
+      "· 지지선 0개 → 모자란 존 하단은 전저점 −30%",
+      "키움 테마: 은행"
+     ]
+    },
+    {
+     "code": "278470",
+     "name": "에이피알",
+     "adopt": false,
+     "technique": "중하단",
+     "zone": {
+      "start": 226500,
+      "end": 166900,
+      "overlap": [
+       "엔벨하단"
+      ],
+      "signature": false
+     },
+     "wave_high": {
+      "date": "2026-09-01",
+      "price": 475000.0
+     },
+     "gap_pct": 10.0,
+     "max_steps": 3,
+     "expire": "2026-11-30",
+     "notes": [
+      "에이피알 — 주도주 신고가 2026-09-01 · 종가 243,000 · 1차 존 상단 종가 대비 -6.8%",
+      "매수존 1차 166,950~226,575 (전저점×0.95 / 전저점−30%) · 중첩 엔벨하단",
+      "간격 10% (지수하락추세) · 하단(6~7차선 이하) 매수 땐 간격 확대 여부를 사람이 본다 [3강 4쪽]",
+      "⚠ 상승 파동(랠리) 미검출 → 기준 H는 마지막 주도주 신고가 이후 최고가. 진입 후 못 바꾸니 사람이 확인",
+      "· 차선 없음 (랠리·가격급등 캔들 미검출)",
+      "· 지지선 0개 → 모자란 존 하단은 전저점 −30%"
+     ]
+    }
+   ]
+  },
+  "sheet": {
+   "date": "2026-11-20",
+   "markdown": "# 주문표 2026-11-20 (반자동 — 봇 계산, 주문은 직접)\n\n- watchlist 작성일 2026-11-17 · 계좌 기준 100,000,000원 · 2종목\n- 가격은 KRX 호가단위로 맞춤 (매수는 내림, 매도는 올림). 손절가는 그 가격 이하로 내려오면 전량\n- 체결가가 표와 다르면 평단이 달라짐 → `dreamroad sheet`를 다시 돌리거나 평단 × (1 + 목표%)로 다시 계산\n- 손절한 날은 신규·추가 매수 금지 [5강] · watchlist 밖 종목 금지 · 1강·3강 규칙 섞지 않기\n\n### 028050  — 중하단\n\n- 전일 종가 63,400 → 1차까지 -0.9%\n- 만료 2027-02-09 · 무효 조건: -\n\n**매수 (지정가, 미리 걸어둠)**\n\n| 차수 | 가격 | 수량 | 금액 |\n|---|---|---|---|\n| 1차 | 62,800 | 26 | 1,632,800 |\n| 2차 | 56,500 | 29 | 1,638,500 |\n| 3차 | 50,800 | 32 | 1,625,600 |\n| 합계 | | 87 | 4,896,900 (최대 5%) |\n\n**체결 후 매도·손절 (체결되면 바로 걸기)**\n\n| 체결 상태 | 평단 | 매도 | 손절 |\n|---|---|---|---|\n| 1차까지 | 62,800 | 26주 전부 66,600 (+6%) | — |\n| 2차까지 | 59,478 | 26주 본전 59,500 · 나머지 29주 63,100 (+6%) | — |\n| 3차까지 | 56,286 | 55주 본전 56,300 · 나머지 32주 58,600 (+4%) · **최소반등폭 근처 54,600 오면 전부** (MIN 55,675, L 50,800 기준 — L이 더 내려가면 낮아짐) | 47,200 이하 전부 (3차 후 −7%) |\n\n- 최소반등폭 H = 70,300 (진입 후 변경 금지)\n\n### 036930  — 중하단\n\n- 전일 종가 159,300 → 1차까지 -24.9%\n- 만료 2026-12-31 · 무효 조건: -\n\n**매수 (지정가, 미리 걸어둠)**\n\n| 차수 | 가격 | 수량 | 금액 |\n|---|---|---|---|\n| 1차 | 119,700 | 13 | 1,556,100 |\n| 2차 | 107,700 | 15 | 1,615,500 |\n| 3차 | 96,900 | 17 | 1,647,300 |\n| 합계 | | 45 | 4,818,900 (최대 5%) |\n\n**체결 후 매도·손절 (체결되면 바로 걸기)**\n\n| 체결 상태 | 평단 | 매도 | 손절 |\n|---|---|---|---|\n| 1차까지 | 119,700 | 13주 전부 126,900 (+6%) | — |\n| 2차까지 | 113,271 | 13주 본전 113,300 · 나머지 15주 120,100 (+6%) | — |\n| 3차까지 | 107,087 | 28주 본전 107,100 · 나머지 17주 111,400 (+4%) · (최소반등폭 근처 140,900는 목표보다 높음 → 목표가 먼저. L이 더 내려가면 다시 확인) | 90,100 이하 전부 (3차 후 −7%) |\n\n- 최소반등폭 H = 284,000 (진입 후 변경 금지)\n"
+  },
+  "forward": {
+   "history": [
+    {
+     "date": "2026-11-16",
+     "DR": {
+      "n": 0,
+      "open": 0,
+      "wins": null,
+      "win_rate": null,
+      "mean_ret": null,
+      "pnl": null,
+      "profit_factor": null
+     },
+     "중하단": {
+      "n": 1,
+      "open": 0,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 5.76,
+      "pnl": 92643,
+      "profit_factor": null
+     },
+     "급등주": {
+      "n": 1,
+      "open": 1,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 59.4,
+      "pnl": 1961115,
+      "profit_factor": null
+     }
+    },
+    {
+     "date": "2026-11-16",
+     "DR": {
+      "n": 0,
+      "open": 0,
+      "wins": null,
+      "win_rate": null,
+      "mean_ret": null,
+      "pnl": null,
+      "profit_factor": null
+     },
+     "중하단": {
+      "n": 1,
+      "open": 0,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 5.76,
+      "pnl": 92643,
+      "profit_factor": null
+     },
+     "급등주": {
+      "n": 1,
+      "open": 1,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 59.4,
+      "pnl": 1961115,
+      "profit_factor": null
+     }
+    },
+    {
+     "date": "2026-11-16",
+     "DR": {
+      "n": 0,
+      "open": 0,
+      "wins": null,
+      "win_rate": null,
+      "mean_ret": null,
+      "pnl": null,
+      "profit_factor": null
+     },
+     "중하단": {
+      "n": 1,
+      "open": 0,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 5.76,
+      "pnl": 92643,
+      "profit_factor": null
+     },
+     "급등주": {
+      "n": 1,
+      "open": 1,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 59.4,
+      "pnl": 1961115,
+      "profit_factor": null
+     }
+    },
+    {
+     "date": "2026-11-16",
+     "DR": {
+      "n": 0,
+      "open": 0,
+      "wins": null,
+      "win_rate": null,
+      "mean_ret": null,
+      "pnl": null,
+      "profit_factor": null
+     },
+     "중하단": {
+      "n": 1,
+      "open": 0,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 5.76,
+      "pnl": 92643,
+      "profit_factor": null
+     },
+     "급등주": {
+      "n": 1,
+      "open": 1,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 59.4,
+      "pnl": 1961115,
+      "profit_factor": null
+     }
+    },
+    {
+     "date": "2026-11-16",
+     "DR": {
+      "n": 0,
+      "open": 0,
+      "wins": null,
+      "win_rate": null,
+      "mean_ret": null,
+      "pnl": null,
+      "profit_factor": null
+     },
+     "중하단": {
+      "n": 1,
+      "open": 0,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 5.76,
+      "pnl": 92643,
+      "profit_factor": null
+     },
+     "급등주": {
+      "n": 1,
+      "open": 1,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 59.4,
+      "pnl": 1961115,
+      "profit_factor": null
+     }
+    },
+    {
+     "date": "2026-11-16",
+     "DR": {
+      "n": 0,
+      "open": 0,
+      "wins": null,
+      "win_rate": null,
+      "mean_ret": null,
+      "pnl": null,
+      "profit_factor": null
+     },
+     "중하단": {
+      "n": 1,
+      "open": 0,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 5.76,
+      "pnl": 92643,
+      "profit_factor": null
+     },
+     "급등주": {
+      "n": 1,
+      "open": 1,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 59.4,
+      "pnl": 1961115,
+      "profit_factor": null
+     }
+    },
+    {
+     "date": "2026-11-17",
+     "DR": {
+      "n": 0,
+      "open": 0,
+      "wins": null,
+      "win_rate": null,
+      "mean_ret": null,
+      "pnl": null,
+      "profit_factor": null
+     },
+     "중하단": {
+      "n": 1,
+      "open": 0,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 5.76,
+      "pnl": 92643,
+      "profit_factor": null
+     },
+     "급등주": {
+      "n": 1,
+      "open": 1,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 59.4,
+      "pnl": 1961115,
+      "profit_factor": null
+     }
+    },
+    {
+     "date": "2026-11-18",
+     "DR": {
+      "n": 0,
+      "open": 0,
+      "wins": null,
+      "win_rate": null,
+      "mean_ret": null,
+      "pnl": null,
+      "profit_factor": null
+     },
+     "중하단": {
+      "n": 1,
+      "open": 1,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 5.76,
+      "pnl": 92643,
+      "profit_factor": null
+     },
+     "급등주": {
+      "n": 2,
+      "open": 0,
+      "wins": 1,
+      "win_rate": 0.5,
+      "mean_ret": 21.645,
+      "pnl": 1177888,
+      "profit_factor": 2.503890953708184
+     }
+    },
+    {
+     "date": "2026-11-19",
+     "DR": {
+      "n": 0,
+      "open": 0,
+      "wins": null,
+      "win_rate": null,
+      "mean_ret": null,
+      "pnl": null,
+      "profit_factor": null
+     },
+     "중하단": {
+      "n": 1,
+      "open": 1,
+      "wins": 1,
+      "win_rate": 1.0,
+      "mean_ret": 5.76,
+      "pnl": 92643,
+      "profit_factor": null
+     },
+     "급등주": {
+      "n": 2,
+      "open": 0,
+      "wins": 1,
+      "win_rate": 0.5,
+      "mean_ret": 21.645,
+      "pnl": 1177888,
+      "profit_factor": 2.503890953708184
+     }
+    }
+   ],
+   "trades": [
+    {
+     "code": "028050",
+     "name": "삼성E&A",
+     "technique": "중하단",
+     "signal": "2026-11-17",
+     "entry": "2026-11-18",
+     "exit": null,
+     "n_buys": 1.0,
+     "avg": 62832.0,
+     "invested": 1633877.0,
+     "pnl": null,
+     "ret_pct": null,
+     "days": 1.0,
+     "exit_reason": null
+    },
+    {
+     "code": "18064K",
+     "name": "한진칼우",
+     "technique": "급등주",
+     "signal": "2026-11-13",
+     "entry": "2026-11-16",
+     "exit": "2026-11-18",
+     "n_buys": 3.0,
+     "avg": 95321.9,
+     "invested": 4862145.0,
+     "pnl": -783227.0,
+     "ret_pct": -16.11,
+     "days": 2.0,
+     "exit_reason": "손절(3차 후 −7%)"
+    },
+    {
+     "code": "18064K",
+     "name": "한진칼우",
+     "technique": "급등주",
+     "signal": "2026-11-11",
+     "entry": "2026-11-12",
+     "exit": "2026-11-13",
+     "n_buys": 2.0,
+     "avg": 91695.8,
+     "invested": 3301546.0,
+     "pnl": 1961115.0,
+     "ret_pct": 59.4,
+     "days": 1.0,
+     "exit_reason": "+10%"
+    },
+    {
+     "code": "028050",
+     "name": "삼성E&A",
+     "technique": "중하단",
+     "signal": "2026-11-05",
+     "entry": "2026-11-06",
+     "exit": "2026-11-09",
+     "n_buys": 1.0,
+     "avg": 59600.0,
+     "invested": 1609441.0,
+     "pnl": 92643.0,
+     "ret_pct": 5.76,
+     "days": 1.0,
+     "exit_reason": "+6%"
+    }
+   ]
+  }
+ },
+ "closing": {
+  "available": true,
+  "report_markdown": "# 종가베팅 v0.3 전진 검증 리포트\n\n- 작성 2026-11-19 16:35, 첫 15:00 작업일 2026-11-19, 규칙 v0.2 동결 (태그 v0.2-frozen)\n- 판정 기준: docs/forward_test.md (바꾸지 않음). 수익률 = 신호일 KRX 종가 매수 → 익일 KRX 시가 매도, 비용 왕복 0.4%\n\n## 판정\n\n| 조건 | 기준 | 현재 |\n|---|---|---|\n| 누적 신호 (결과 확정) | 60건 이상 | 0건 |\n| 경과 거래일 (결측 포함) | 40일 이상 | 1일 |\n| 비용 후 거래당 평균 | +0.3% 이상 | - % |\n| 손익비 | 1.3 이상 | - |\n\n> 아직 판정 시점이 아니다. 아래 수치는 중간 기록이며, 보고 나서 규칙을 바꾸지 않는다.\n\n## 성과\n\n| 구분 | 건수 | 비용 전 평균 % | 비용 후 평균 % | 손익비 | 승률 % | 상위 5건 뺀 평균 % |\n|---|---|---|---|---|---|---|\n\n## 보조 기준 (기록용, 판정 아님)\n\n같은 날 같은 15:00 값으로 따로 판정한 신호의 결과. 2026-11-19에 잠근 목록이며, 합격·미달 판정은 v0.2에만 한다.\n\n| 기준 | 건수 | 비용 전 평균 % | 비용 후 평균 % | 손익비 | 승률 % | 상위 5건 뺀 평균 % |\n|---|---|---|---|---|---|---|\n| v0.2 (본 기준) | 0 | - | - | - | - | - |\n| A v0.1 원래 값 | 0 | - | - | - | - | - |\n| B 재료 A·B만 | 0 | - | - | - | - | - |\n| C 1종목 집중 | 0 | - | - | - | - | - |\n| E 수급 (외국인+기관 순매수 > 0) | 0 | - | - | - | - | - |\n| F 수급 5일 (외국인+기관 5영업일 순매수 > 0) | 0 | - | - | - | - | - |\n\n## 15:00 판정과 종가 판정의 일치\n\n- 게이트 상태 일치: 100.0% (2개 날짜·시장)\n- 15:00 신호·가상 0건 중 종가에도 선정 0건 (0.0%)\n- 종가 신호·가상 0건 중 15:00에도 선정 0건 (0.0%)\n\n## 재료 등급별 (참고, 합격 조건 아님)\n\n- 아직 등급과 결과가 함께 있는 후보가 없다.\n\n## 운영 기록\n\n- 15:00 작업: 성공 1일, 결측 0건\n\n## 최근 신호·가상 후보 (최근 20건)\n\n| 신호일 | 종목 | 구분 | 게이트 | 매수(기준가) | 익일 시가 | 비용 후 % | 등급 |\n|---|---|---|---|---|---|---|---|\n",
+  "runs": [
+   {
+    "trade_date": "2026-11-19",
+    "job": "evening_close",
+    "started_at": "2026-11-19T16:35:01.981347",
+    "finished_at": "2026-11-19T16:35:29.939026",
+    "status": "ok",
+    "message": "15:00 1차 4 / 종가 1차 6"
+   },
+   {
+    "trade_date": "2026-11-19",
+    "job": "outcomes",
+    "started_at": "2026-11-19T16:35:01.981347",
+    "finished_at": "2026-11-19T16:35:36.133495",
+    "status": "ok",
+    "message": "확정 0 / 대기 0"
+   },
+   {
+    "trade_date": "2026-11-19",
+    "job": "minutes",
+    "started_at": "2026-11-19T16:35:01.981347",
+    "finished_at": "2026-11-19T16:35:36.141235",
+    "status": "ok",
+    "message": "대상 없음"
+   },
+   {
+    "trade_date": "2026-11-19",
+    "job": "report",
+    "started_at": "2026-11-19T16:35:01.981347",
+    "finished_at": "2026-11-19T16:35:36.188437",
+    "status": "ok",
+    "message": ""
+   },
+   {
+    "trade_date": "2026-11-19",
+    "job": "material",
+    "started_at": "2026-11-19T16:01:55.008453",
+    "finished_at": "2026-11-19T16:01:55.016393",
+    "status": "ok",
+    "message": "등급 매길 후보 없음"
+   },
+   {
+    "trade_date": "2026-11-19",
+    "job": "signal_1500",
+    "started_at": "2026-11-19T16:00:02.546190",
+    "finished_at": "2026-11-19T16:00:24.158111",
+    "status": "ok",
+    "message": "1차 4 / 신호 0"
+   }
+  ],
+  "gate": [
+   {
+    "trade_date": "2026-11-19",
+    "phase": "close",
+    "market": "KOSDAQ",
+    "index_value": 684.81,
+    "ma": 672.598,
+    "ma_n": 5,
+    "chg_pct": 3.32,
+    "rising": 1170,
+    "fall": 499,
+    "trend": true,
+    "crash": false,
+    "breadth": true,
+    "state": "ON"
+   },
+   {
+    "trade_date": "2026-11-19",
+    "phase": "close",
+    "market": "KOSPI",
+    "index_value": 5137.89,
+    "ma": 5112.967999999999,
+    "ma_n": 5,
+    "chg_pct": 1.39,
+    "rising": 562,
+    "fall": 307,
+    "trend": true,
+    "crash": false,
+    "breadth": true,
+    "state": "ON"
+   },
+   {
+    "trade_date": "2026-11-19",
+    "phase": "p1500",
+    "market": "KOSDAQ",
+    "index_value": 678.26,
+    "ma": 671.2879999999999,
+    "ma_n": 5,
+    "chg_pct": 2.33,
+    "rising": 1054,
+    "fall": 614,
+    "trend": true,
+    "crash": false,
+    "breadth": true,
+    "state": "ON"
+   },
+   {
+    "trade_date": "2026-11-19",
+    "phase": "p1500",
+    "market": "KOSPI",
+    "index_value": 5109.84,
+    "ma": 5107.357999999999,
+    "ma_n": 5,
+    "chg_pct": 0.84,
+    "rising": 500,
+    "fall": 364,
+    "trend": true,
+    "crash": false,
+    "breadth": true,
+    "state": "ON"
+   }
+  ],
+  "screen": [
+   {
+    "trade_date": "2026-11-19",
+    "phase": "close",
+    "code": "352820",
+    "name": "하이브",
+    "market": "KOSPI",
+    "price": 189400.0,
+    "change_pct": 13.69,
+    "trading_value": 218479000000.0,
+    "from_high_pct": -0.263296471827279,
+    "tv_ratio": 4.591862899225719,
+    "passed": false,
+    "fail_reasons": "거래대금배수",
+    "cand_rank": null,
+    "gate_state": "ON",
+    "is_signal": false,
+    "is_virtual": false
+   },
+   {
+    "trade_date": "2026-11-19",
+    "phase": "close",
+    "code": "261780",
+    "name": "아리바이오랩",
+    "market": "KOSDAQ",
+    "price": 5820.0,
+    "change_pct": 10.02,
+    "trading_value": 122544000000.0,
+    "from_high_pct": -9.76744186046512,
+    "tv_ratio": 7.881428695464821,
+    "passed": false,
+    "fail_reasons": "고가대비",
+    "cand_rank": null,
+    "gate_state": "ON",
+    "is_signal": false,
+    "is_virtual": false
+   },
+   {
+    "trade_date": "2026-11-19",
+    "phase": "close",
+    "code": "053800",
+    "name": "안랩",
+    "market": "KOSDAQ",
+    "price": 117900.0,
+    "change_pct": 12.5,
+    "trading_value": 99377000000.0,
+    "from_high_pct": -0.590219224283306,
+    "tv_ratio": 1.5330728254715598,
+    "passed": false,
+    "fail_reasons": "거래대금배수",
+    "cand_rank": null,
+    "gate_state": "ON",
+    "is_signal": false,
+    "is_virtual": false
+   },
+   {
+    "trade_date": "2026-11-19",
+    "phase": "close",
+    "code": "403870",
+    "name": "HPSP",
+    "market": "KOSDAQ",
+    "price": 42300.0,
+    "change_pct": 11.76,
+    "trading_value": 87659000000.0,
+    "from_high_pct": -0.35335689045936647,
+    "tv_ratio": 1.5133502981503286,
+    "passed": false,
+    "fail_reasons": "거래대금배수",
+    "cand_rank": null,
+    "gate_state": "ON",
+    "is_signal": false,
+    "is_virtual": false
+   },
+   {
+    "trade_date": "2026-11-19",
+    "phase": "close",
+    "code": "089590",
+    "name": "제주항공",
+    "market": "KOSPI",
+    "price": 8360.0,
+    "change_pct": 11.47,
+    "trading_value": 82307000000.0,
+    "from_high_pct": -10.779082177161147,
+    "tv_ratio": 10.422499540967829,
+    "passed": false,
+    "fail_reasons": "고가대비",
+    "cand_rank": null,
+    "gate_state": "ON",
+    "is_signal": false,
+    "is_virtual": false
+   },
+   {
+    "trade_date": "2026-11-19",
+    "phase": "close",
+    "code": "003350",
+    "name": "한국화장품제조",
+    "market": "KOSPI",
+    "price": 12700.0,
+    "change_pct": 15.66,
+    "trading_value": 56768000000.0,
+    "from_high_pct": -8.829863603732946,
+    "tv_ratio": 8.651152867309774,
+    "passed": false,
+    "fail_reasons": "고가대비",
+    "cand_rank": null,
+    "gate_state": "ON",
+    "is_signal": false,
+    "is_virtual": false
+   },
+   {
+    "trade_date": "2026-11-19",
+    "phase": "p1500",
+    "code": "352820",
+    "name": "하이브",
+    "market": "KOSPI",
+    "price": 188900.0,
+    "change_pct": 13.39,
+    "trading_value": 207222000000.0,
+    "from_high_pct": -0.526592943654558,
+    "tv_ratio": 4.3552699055897905,
+    "passed": false,
+    "fail_reasons": "거래대금배수",
+    "cand_rank": null,
+    "gate_state": "ON",
+    "is_signal": false,
+    "is_virtual": false
+   },
+   {
+    "trade_date": "2026-11-19",
+    "phase": "p1500",
+    "code": "053800",
+    "name": "안랩",
+    "market": "KOSDAQ",
+    "price": 116600.0,
+    "change_pct": 11.26,
+    "trading_value": 94874000000.0,
+    "from_high_pct": -1.6033755274261652,
+    "tv_ratio": 1.4636057764250154,
+    "passed": false,
+    "fail_reasons": "거래대금배수",
+    "cand_rank": null,
+    "gate_state": "ON",
+    "is_signal": false,
+    "is_virtual": false
+   },
+   {
+    "trade_date": "2026-11-19",
+    "phase": "p1500",
+    "code": "089590",
+    "name": "제주항공",
+    "market": "KOSPI",
+    "price": 8380.0,
+    "change_pct": 11.73,
+    "trading_value": 81472000000.0,
+    "from_high_pct": -10.565635005336183,
+    "tv_ratio": 10.316763854857193,
+    "passed": false,
+    "fail_reasons": "고가대비",
+    "cand_rank": null,
+    "gate_state": "ON",
+    "is_signal": false,
+    "is_virtual": false
+   },
+   {
+    "trade_date": "2026-11-19",
+    "phase": "p1500",
+    "code": "003350",
+    "name": "한국화장품제조",
+    "market": "KOSPI",
+    "price": 12650.0,
+    "change_pct": 15.21,
+    "trading_value": 55801000000.0,
+    "from_high_pct": -9.188801148600145,
+    "tv_ratio": 8.503787012907846,
+    "passed": false,
+    "fail_reasons": "고가대비",
+    "cand_rank": null,
+    "gate_state": "ON",
+    "is_signal": false,
+    "is_virtual": false
+   }
+  ],
+  "outcomes": [],
+  "materials": []
+ },
+ "commit_log": [
+  {
+   "at": "2026-11-20 08:37:56",
+   "repo": "closing-bet-bot",
+   "message": "푸시할 커밋 없음"
+  },
+  {
+   "at": "2026-11-20 08:37:56",
+   "repo": "dreamroad-bot-claude",
+   "message": "푸시할 커밋 없음"
+  },
+  {
+   "at": "2026-11-20 08:37:56",
+   "repo": "closing-bet-bot",
+   "message": "바뀐 기록 없음"
+  },
+  {
+   "at": "2026-11-20 08:37:55",
+   "repo": "dreamroad-bot-claude",
+   "message": "바뀐 기록 없음"
+  },
+  {
+   "at": "2026-11-20 00:11:11",
+   "repo": "closing-bet-bot",
+   "message": "바뀐 기록 없음"
+  },
+  {
+   "at": "2026-11-20 00:11:11",
+   "repo": "dreamroad-bot-claude",
+   "message": "바뀐 기록 없음"
+  }
+ ]
+}
