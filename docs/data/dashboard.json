@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-20T08:43:54+09:00",
+ "generated_at": "2026-11-20T08:47:42+09:00",
  "dreamroad": {
   "names": {
    "028050": "삼성E&A",
@@ -1014,6 +1014,26 @@
   "materials": []
  },
  "commit_log": [
+  {
+   "at": "2026-11-20 08:47:25",
+   "repo": "closing-bet-bot",
+   "message": "푸시할 커밋 없음"
+  },
+  {
+   "at": "2026-11-20 08:47:25",
+   "repo": "dreamroad-bot-claude",
+   "message": "푸시할 커밋 없음"
+  },
+  {
+   "at": "2026-11-20 08:47:25",
+   "repo": "closing-bet-bot",
+   "message": "바뀐 기록 없음"
+  },
+  {
+   "at": "2026-11-20 08:47:24",
+   "repo": "dreamroad-bot-claude",
+   "message": "바뀐 기록 없음"
+  },
   {
    "at": "2026-11-20 08:37:56",
    "repo": "closing-bet-bot",
